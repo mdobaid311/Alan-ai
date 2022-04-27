@@ -65,6 +65,7 @@ export default makeStyles((theme) => ({
     },
   },
   alanLogo: {
+    backgroundColor:"#808080",
     height: '27vmin',
     borderRadius: '30%',
     padding: '0 5%',

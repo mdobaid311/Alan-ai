@@ -16,6 +16,6 @@ export default makeStyles({
     display: 'flex', flexDirection: 'column', textAlign: 'center',
   },
   container: {
-    padding: '0 5%', width: '100%', margin: 0,
+    padding: '0 10%', width: '100%', margin: 0,
   },
 });

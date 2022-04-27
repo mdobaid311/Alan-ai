@@ -1,4 +1,6 @@
-import { makeStyles } from "@material-ui/core/styles";
+import {
+  makeStyles
+} from "@material-ui/core/styles";
 
 export default makeStyles({
   media: {
@@ -16,6 +18,9 @@ export default makeStyles({
     justifyContent: "space-between",
     borderBottom: "10px solid white",
     margin: "10px",
+    backgroundColor: "#252525",
+    color: 'white'
+
   },
   activeCard: {
     borderBottom: "10px solid #22289a",
@@ -27,6 +32,7 @@ export default makeStyles({
     display: "flex",
     justifyContent: "space-between",
     margin: "20px",
+    color:"#252525"
   },
   title: {
     padding: "0 16px",

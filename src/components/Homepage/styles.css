@@ -1,0 +1,53 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  width: 75%;
+}
+
+.trending span:first-child {
+  width: 120px;
+  color: black;
+  background-color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.marquee-text {
+  display: block;
+  padding: 0 50px;
+  cursor: pointer;
+}
+
+.marquee-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.marquee-container {
+  height: 100px;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .trending span:first-child {
+    font-size: 8px;
+    width: 80px;
+    text-align: center;
+  }
+  .marquee-container {
+    height: fit-content;
+    font-size: 12px;
+  }
+}
